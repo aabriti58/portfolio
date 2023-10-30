@@ -206,7 +206,7 @@ section .title::before{
     transform: translateX(-50%);
 }
 .about .about-content .left{
-    width: 30%;
+    width: 45%;
 }
 .about .about-content .left img{
     height: 250px;
@@ -215,10 +215,10 @@ section .title::before{
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 70%;
+    width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: -20px;
 }
