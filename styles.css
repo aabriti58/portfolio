@@ -206,21 +206,21 @@ section .title::before{
     transform: translateX(-50%);
 }
 .about .about-content .left{
-    width: 45%;
+    width: 30%;
 }
 .about .about-content .left img{
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
     object-fit: contain;
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 55%;
+    width: 70%;
 }
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: -20px;
 }
 .about .about-content .right .text span{
     color: #4D4C7D;
@@ -270,6 +270,8 @@ section .title::before{
     text-align: center;
     border-radius: 6px;
     padding: 25px 10px;
+    height: 300px;
+    text-align: justify;
     cursor: pointer;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -284,6 +286,7 @@ section .title::before{
     align-items: center;
     justify-content: center;
     transition: al 0.3s ease;
+    color: #4D4C7D;
 }
 .project .project-content .card:hover .box{
     transform: scale(1.05);
@@ -345,22 +348,6 @@ section .title::before{
     font-size:  20px;
     font-weight:  600;
     margin-bottom: 10px;
-}
-.skills .skills-content .left a{
-    display: inline-block;
-    background: #4D4C7D;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #4D4C7D;
-    transition: all 0.3s ease;
-}
-.skills .skills-content .left a:hover{
-    color: #4D4C7D;
-    background: none;
 }
 .skills .skills-content .left p{
     text-align: justify;
